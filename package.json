@@ -5,10 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "backend": "node backend/index.js",
+    "backend": "nodemon backend/index.js",
     "frontend": "npm run dev --prefix frontend",
-    "backend": "node backend/index.js",
-    "frontend": "vite",
     "dev": "concurrently \"npm run backend\" \"npm run frontend\""
   },
   "keywords": [],
