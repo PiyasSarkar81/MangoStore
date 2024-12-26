@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api/": "https://mangostore-backend.onrender.com",
-      "/uploads/": "http://localhost:5000",
+      "/uploads/": "https://mangostore-backend.onrender.com",
     },
   },
 });
