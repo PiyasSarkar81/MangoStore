@@ -27,7 +27,29 @@ Token-based authentication using JSON Web Token (JWT) for added security.
 * MongoDB
 * JSON Web Token (JWT)
 
+How to Get Started 💻
+Clone the repository:
 
+```
+git clone https://github.com/PiyasSarkar81/MangoStore.git  
+```
+Install dependencies for both frontend and backend:
+
+```
+cd MangoStore  
+npm install
+```
+
+# Start the backend server  
+```
+npm run backend 
+```
+
+# Start the frontend client  
+```  
+npm run frontend
+```
+Open your browser and navigate to http://localhost:3000 to explore MangoStore!
 
 ![Screenshot 2024-12-26 211609](https://github.com/user-attachments/assets/dc772da5-6240-4120-8ffc-0b89104b7922)
 ![Screenshot 2024-12-26 211818](https://github.com/user-attachments/assets/d00c75c6-269f-4851-8f39-c895016e71e9)
