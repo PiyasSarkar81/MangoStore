@@ -1,3 +1,6 @@
+dotenv.config();
+const port = process.env.PORT || 5000;
+
 // packages
 import path from "path";
 import express from "express";
@@ -12,8 +15,6 @@ import productRoutes from "./routes/productRoutes.js";
 import uploadRoutes from "./routes/uploadRoutes.js";
 import orderRoutes from "./routes/orderRoutes.js";
 
-dotenv.config();
-const port = process.env.PORT || 5000;
 
 connectDB();
 
