@@ -1,8 +1,10 @@
 import mongoose from "mongoose";
 
+const url = process.env.MONGO_URI || "https://mangostore-c12m.onrender.com"
+
 const connectDB = async () => {
   try {
-    await mongoose.connect(process.env.MONGO_URI);
+    await mongoose.connect(url);
     console.log(`Successfully connnected to mongoDB 👍`);
   } catch (error) {
     console.error(`ERROR: ${error.message}`);
